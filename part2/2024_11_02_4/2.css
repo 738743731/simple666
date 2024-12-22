@@ -1,0 +1,84 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+  body,
+  html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    /* Prevent horizontal scrolling */
+  }
+   
+  .page {
+    height: 100vh;
+    /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.5s ease;
+    /* Smooth scrolling transition */
+  }
+   
+  /* Individual Page Styles */
+  #home {
+    background-color: #f8b400;
+    color: white;
+  }
+   
+  #menu {
+    background-color: #6a11cb;
+    color: white;
+  }
+   
+  #contact {
+    background-color: #4caf50;
+    color: white;
+  }
+   
+  /* Scroll Link Styles */
+  .scroll-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+   
+  .scroll-link:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+   
+  /* Smooth Scroll Animation */
+  html {
+    scroll-behavior: smooth;
+  }
+   
+  /* Responsive Design */
+   
+   
+  .scroll-link {
+    padding: 5px 10px;
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: dodgerblue;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+  }
+ 

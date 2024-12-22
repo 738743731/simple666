@@ -1,0 +1,81 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif; /* Setting a common font for the whole website */
+  margin: 0;
+  padding: 0;
+  background-color: #e0e0e0; /* Light gray background color for the whole page */
+}
+
+/* Navigation Bar Styles */
+nav {
+  background-color: #9a0d0d; /* Dark gray background for the navbar */
+  text-align: center; /* Centering the navigation links */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block; /* Making the list items appear side by side */
+  margin: 0 15px; /* Adding some spacing between the links */
+}
+
+nav ul li a {
+  color: white; /* White text color for the links */
+  text-decoration: none; /* Removing the underline from the links */
+  padding: 10px 15px; /* Adding some padding to the links for better clickability */
+  display: block; /* Making the link take up the full width of the list item */
+}
+
+nav ul li a:hover {
+  background-color: #9e0a0a; /* Changing the background color on hover for visual feedback */
+}
+
+/* Page Heading Styles */
+header {
+  text-align: center; /* Centering the page heading */
+  background-color: #910909; /* Light gray background for the heading section */
+  padding: 20px;
+}
+
+/* Main Content Area Styles */
+main {
+  padding: 40px; /* Increased padding to give more space around the main content */
+}
+
+main p,
+main h2 {
+  margin-bottom: 20px; /* Adding some space between paragraphs and headings within the main content area */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #9b0d0d; /* Dark gray background for the footer */
+  color: white; /* White text color for the footer content */
+  text-align: center; /* Centering the footer text */
+  padding: 10px;
+}
+
+/* Responsive Design for Small Screens */
+@media only screen and (max-width: 600px) {
+  nav ul li {
+      display: block; /* Changing the navigation links to stack on top of each other for small screens */
+      margin: 0;
+      padding: 10px 0;
+  }
+
+  nav ul li a {
+      padding: 10px;
+  }
+
+  main {
+      padding: 20px; /* Adjusting the padding for the main content area on small screens */
+  }
+
+  article {
+      margin-bottom: 30px; /* Adding more space between product/articles on small screens */
+  }
+}
